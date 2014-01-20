@@ -31,21 +31,32 @@
 ================================================== -->
     <div class="container">
       <h1 class="pull-left logo"><a href="index.html">Phytosanitary Resources</a></h1>
-      <ul class="list-inline pull-right hidden-print smaller">
-        <li><a href="#">Login</a> or <a href="#">Register</a></li>
+      <ul class="list-inline pull-right hidden-print">
+        <li><a href="#" class="btn btn-white btn-xs">Login</a> or <a class="btn btn-white btn-xs" href="#">Register</a></li>
       </ul>
-      <ul class="list-inline pull-left hidden-print smaller languages">
+      <!-- <ul class="list-inline pull-left hidden-print smaller languages">
         <li><a href="/ar/">العربية</a></li>
         <li><a href="/zh-hans/">简体中文</a></li>
         <li><a href="/en/" class="active">English</a></li>
         <li><a href="/fr/">Français</a></li>
         <li><a href="/ru/">Русский</a></li>
         <li><a href="/es/">Español</a></li>
-      </ul>
+      </ul> -->
+
       <form role="form" class="form-inline pull-left hidden-print" id="searchform">
         <input type="text" id="search" class="form-control" placeholder="Search Resources">
         <button type="button" class="btn btn-primary">Search</button> <small><a href="search-results.html">»</a></small>
       </form>
+
+      <ul class="list-inline pull-right hidden-print languages">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Official Documents <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.ippc.int/standards" title="Goes to the www.ippc.int website standards page." target="_blank">Standards</a></li>
+          </ul>
+        </li>
+        <li><a href="http://irss.ippc.int" target="_blank">Helpdesk</a></li>
+      </ul>
     </div> <!-- /.container -->
 
 
@@ -104,14 +115,6 @@
                   </ul>
                 </li>
                 <li><a href="#consultantroster">Consultants</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">E-Learning <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">PRA</a></li>
-                    <li><a href="#">Forestry</a></li>
-                  </ul>
-                </li>
-                <li><a href="#helpdesk">Helpdesk</a></li>
               </ul>
             </div> <!-- ./navbar-collapse -->
           </div> <!-- /.container -->
@@ -167,7 +170,7 @@
                     </li>
                     <li class="text-muted"><b><img alt="" src="img/cdc-resource.gif"> CDC:</b> Resources produced under the auspices of the <abbr title="Capacity Development Committee">CDC</abbr>
                     </li>
-                    <li class="text-muted"><b><img alt="" src="img/official-resource.gif"> Official:</b> Official documents
+                    <li class="text-muted"><b><img alt="" src="img/official-resource.gif"> Official:</b> Official documents adopted by the <a href="https://www.ippc.int/cpm" title="Commission on Phytosanitary Measures">CPM</a>
                     </li>
                   </ul>
                 </div> <!-- /.panel-body -->
@@ -180,7 +183,7 @@
                         <a href="#" title="sort by Title" class="active">Title</a>
                       </th>
                       <th style="width:30%;">
-                        <a href="#" title="Sort by publication date." class="active">Publication date <small class="text-muted normal small">(YYYY-MM-DD)</small><span class="caret"></span>
+                        <a href="#" title="Sort by publication date." class="active">Posted date <small class="text-muted normal small">(YYYY-MM-DD)</small><span class="caret"></span>
                         </a>
                       </th>
 
@@ -393,11 +396,23 @@
 
           <div class="panel panel-default">
             <div class="panel-heading">
+              <h3 class="panel-title">Links to Related Organizations</h3>
+            </div>
+            <div class="panel-body">
+              <ul class="list-lesspadding">
+                <li><a href="https://www.ippc.int" title="The www.ippc.int website.">International Plant Protection Convention</a></li>
+                <li><a href="https://www.ippc.int/partners/regional-plant-protection-organizations">Regional Plant Protection Organizations</a></li>
+                <li><a href="http://www.standardsfacility.org/en/index.htm">Standards and Trade Development Facility</a></li>
+              </ul>
+            </div><!-- /.panel-body -->
+          </div><!-- /.panel -->
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
               <h3 class="panel-title">Subscribe</h3>
             </div> <!-- /.panel-heading -->
             <div class="panel-body">
               <ul class="list-unstyled">
-                <li><a href="#">Newsletter</a> <i class="text-muted">(suggestion)</i></li>
                 <li><a href="#">RSS Feed</a></li>
               </ul>
             </div> <!-- /.panel-body -->

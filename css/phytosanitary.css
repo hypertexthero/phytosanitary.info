@@ -6,7 +6,7 @@ body {
   padding-top:25px;
   padding-bottom: 40px;
   color: #5a5a5a;
-/*  background:url(../img/grey.png) repeat 0 0;*/
+/*  background:url(../img/body-bg-resources.jpg) repeat-x 0 0;*/
 }
 
 /*a:link {color:rgb(66, 139, 202);}
@@ -26,6 +26,13 @@ a:active {}*/
   color:#333;
   border-color:rgb(204, 204, 204);
 }
+
+.btn-primary {
+  background-color:#606; 
+  color:#fff;
+  border-color:#606;
+}
+
 
 .list-unstyled small {display:block; margin-top:1em;}
 .list-lesspadding {padding-left:1em;}
@@ -47,7 +54,7 @@ h4 {
 }
 
 form#searchform {margin:-5px 0 16px 0; float:none; /*width:99% !important;*/}
-form#searchform .form-control {/*width:91% !important;*/ width:14em;}
+form#searchform .form-control {/*width:91% !important;*/ width:20em;}
 
 /*th {background:#F2F2F2;}*/
 
@@ -59,6 +66,7 @@ h1.logo a {
   background:url(../img/logo.png) no-repeat 0 0; height:34px; color:#000; display:block;}
 
 ul.languages {margin-right:1em;}
+ul.languages .dropdown-menu {z-index:2000;}
 
 .navbar, .thumbnail, .panel-heading {
   background:url(../img/xv.png) repeat 0 0; 
