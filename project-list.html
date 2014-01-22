@@ -10,7 +10,7 @@
 
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> <!-- =Note: Don't forget to switch robots to "all" for production! -->
 
-    <title>Training Materials - Phytosanitary Resources</title>
+    <title>Projects - Phytosanitary Resources</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -80,7 +80,7 @@
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li class="dropdown">
+                <li class="dropdown active">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Databases &amp; Tools <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="project-list.html">Projects</a></li>
@@ -97,7 +97,7 @@
                     <li><a href="#">Presentations</a></li>
                   </ul>
                 </li>
-                <li class="dropdown active"> <!-- =NOTE: active class is set here for this section -->
+                <li class="dropdown"> <!-- =NOTE: active class is set here for this section -->
                   <a href="list.html" class="dropdown-toggle" data-toggle="dropdown">Training <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="list.html">Training Materials</a></li>
@@ -125,34 +125,53 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
           
           <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
-            <li class="active">Training Materials</li>
+            <li class="active">Databases &amp; Tools: Projects</li>
           </ol>
-
-          <h1>Training Materials</h1>
-          <p class="lead">Training materials such as online e-learning courses, scoping and desk studies, power points, manuals, SOPs and guidelines are available in this section.</p>
-          <p>The IPPC Secratariat encourages all IPPC Contracting Parties, RPPOs and other relevant organizations to contribute by uploading training materials and/or link to available online e-learning courses. These will be crucial resources for the improvement of Phytosanitary Capacity Development around the world.</p>
-
+          
           <div class="row">
             <div class="col-md-6">
-              <a href="#" class="thumbnail">
-                <!-- <img data-src="holder.js/default/360x200" alt="..."> -->
-                <img src="img/a-windmill-near-zaandam-Claude-Monet-360x200.jpg" alt="">
-              </a>
-              <h4 class="inline">Featured Training Material</h4>
-              <p class="inline">Brief description of this goes here. <a href="#">Read more »</a></p>
-            </div><!-- /.col-md-6 -->
+
+              <h1><span class="normal">Phytosanitary Capacity Development</span> Projects Database </h1>
+              <p class="lead">View phytosanitary projects and interventions from a variety of recognized project information sources. Search the database geographically to find out more details about phytosanitary capacity development projects worldwide.</p>
+
+              <p>Contact Points for IPPC contracting parties are encouraged to review the data for their countries and update the database regularly. <a href="login.html">Login</a> using your www.ippc.int account details to share phytosanitary capacity development projects from your region/country.</p>
+              
+              <div class="col-md-6">
+                <a href="#" class="thumbnail">
+                  <img data-src="holder.js/default/250x133" alt="...">
+                  <!-- <img src="img/a-windmill-near-zaandam-Claude-Monet-360x200.jpg" alt=""> -->
+                </a>
+                <h4 class="inline">Featured Project</h4>
+                <p class="inline">Brief description of the project goes here. <a href="#">Read more »</a></p>
+              </div><!-- /.col-md-6 -->
+
+              <div class="col-md-6"> <!-- =todo -->
+                <a href="project-detail.html" class="thumbnail">
+                  <img data-src="holder.js/vine/250x133" alt="...">
+                  <!-- <img src="img/the-grand-dock-at-le-havre-1872-claude-monet-360x200.jpg" alt=""> -->
+                </a>
+                <h4 class="inline">Featured Project</h4>
+                <p class="inline">Global phytosanitary manuals, standard operating procedures and training kits. <a href="project-detail.html" class="text-success">Read more »</a></p>
+              </div><!-- /.col-md-6 -->
+              
+            </div> <!-- /.col-md-6 -->
+
+            <div class="col-md-6">
+              <h3>Number of projects: 95</h3>
+              <img data-src="holder.js/default/550x380/text:map goes here" alt="...">
+            </div> <!-- /.col-md-6 -->
+            
+          </div> <!-- /.row -->
+          <div class="row">
+
             
             <div class="col-md-6">
-              <a href="detail.html" class="thumbnail">
-                <!-- <img data-src="holder.js/vine/360x200" alt="..."> -->
-                <img src="img/the-grand-dock-at-le-havre-1872-claude-monet-360x200.jpg" alt="">
-              </a>
-              <h4 class="inline">Featured Manual</h4>
-              <p class="inline"><a href="detail.html" class="text-success">Market Access: Learn how to gain access to markets</a> with the information in our manuals. <a href="detail.html" class="text-success">Read more »</a></p>
+              
+              
             </div> <!-- /.col-md-6 -->
           </div> <!-- /.row -->
           
@@ -162,19 +181,31 @@
               <div class="panel panel-default">
 
                 <div class="panel-heading">
-                  <h3 class="panel-title">All Training Materials</h3>
+                  <h3 class="panel-title">Filter Projects by:</h3>
                 </div> <!-- /.panel-heading -->
                 <div class="panel-body">
-                  <ul class="list-unstyled">
-                    <li class="text-muted"><b><img alt="The IPPC logo" src="img/ippc-resource.gif"> IPPC:</b> Resources produced under the auspices of the IPPC Secretariat
-                    </li>
-                    <li class="text-muted"><b><img alt="" src="img/cdc-resource.gif"> CDC:</b> Resources produced under the auspices of the <abbr title="Capacity Development Committee">CDC</abbr>
-                    </li>
-                    <li class="text-muted"><b><img alt="" src="img/official-resource.gif"> Official:</b> Official documents adopted by the <a href="https://www.ippc.int/cpm" title="Commission on Phytosanitary Measures">CPM</a>
-                    </li>
-                  </ul>
-                </div> <!-- /.panel-body -->
-
+                  <form role="form">
+                    <select class="form-control" style="margin-bottom:10px;">
+                      <option>-- Region --</option>
+                      <option>Here</option>
+                      <option>They</option>
+                      <option>Go</option>
+                    </select>
+                    <select class="form-control" style="margin-bottom:10px;">
+                      <option>-- Country --</option>
+                      <option>Here</option>
+                      <option>They</option>
+                      <option>Go</option>
+                    </select>
+                    <select class="form-control" style="margin-bottom:10px;">
+                      <option>-- Year --</option>
+                      <option>Here</option>
+                      <option>They</option>
+                      <option>Go</option>
+                    </select>
+                    <button type="button" class="btn btn-primary">Filter</button>
+                  </form>
+                </div><!-- /.panel-body -->
                 <!-- =Table -->
                 <table class="table table-condensed table-striped table-hover">
                   <thead>
@@ -192,132 +223,185 @@
                   <tbody>
                     <tr>
                       <td>
-                        <a href="/information/product-quality-control-and-shipping-procedures-sterile-mass-reared-tephritid-fruit">Product Quality Control and Shipping Procedures for Sterile Mass-Reared Tephritid Fruit Flies</a>
+                        <a href="/project/international-plant-protection-convention-ippc-capacity-development-fund-directly-linked">International Plant Protection Convention (IPPC) Capacity Development Fund (directly linked to PGM/MUL/2012-2017 ex MTF /GLO/368/MUL)</a>
                       </td>
-
                       <td>
-                        2013-12-04
+                        11-10-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/exporting-australia-includes-quarantine-information-export-plants-and-plant-products">Exporting from Australia: Includes quarantine information on the export of plants and plant products from Australia</a>
+                        <a href="project-detail.html" class="text-success">MTF /GLO/368/STF:Global Phytosanitary Manuals, Standard Operating Procedures and Training Kits</a>
                       </td>
-
                       <td>
-                        2013-12-04
+                        11-10-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/performance-vision-and-strategy-national-plant-protection-organization">Performance, vision and Strategy for National Plant Protection Organization</a>
+                        <a href="/project/gcp-glo368uk-translation-phytosanitary-capacity-evaluation-pce-tool-russian-and-arabic">GCP /GLO/368/UK : Translation of the Phytosanitary Capacity Evaluation (PCE) Tool into Russian and Arabic</a>
                       </td>
-
                       <td>
-                        2013-12-04
+                        11-10-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/seeds-not-planting">Seeds not for planting</a>
+                        <a href="/project/gcp-glo419jpncooperation-phytosanitary-capacity-development-developing-countries-directly">GCP /GLO/419/JPN:Cooperation for Phytosanitary Capacity Development of Developing Countries (directly linked to the Umbrella Project: PGM/MUL/2012-2017 IPPC )</a>
                       </td>
-
                       <td>
-                        2013-11-21
+                        11-10-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/export-manual-program">Export Manual Program</a>
+                        <a href="/project/gcp-ras286rok-support-capacity-development-implementation-plant-pest-surveillance-and">GCP /RAS/286/ROK: Support to Capacity Development in Implementation of Plant Pest Surveillance and Information Management in Southeast Asian Countries</a>
                       </td>
-
                       <td>
-                        2013-11-21
+                        11-10-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/fresh-fruits-and-vegetables-import-manual">Fresh Fruits and Vegetables Import Manual</a>
+                        <a href="/node/1341">MTF/GAM/030/STF: Application of Phytosanitary Capacity Evaluation(PCE) in the Gambia</a>
                       </td>
-
                       <td>
-                        2013-11-21
+                        11-10-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/presentation-market-access-manual-guide-phytosanitary-issues-national-plant-protection">Presentation on the Market Access manual -guide to phytosanitary issues for national plant protection organizations</a> <small><img alt="The IPPC logo" src="img/ippc-resource.gif"> IPPC</small>
+                        <a href="/project/tcpcmr3303-projet-pilote-d%E2%80%99appui-%C3%A0-la-mise-en-place-d%E2%80%99une-information-phytosanitaire-sur-la">TCP/CMR/3303: Projet pilote d’appui à la mise en place d’une information phytosanitaire sur la protection intégrée des cultures dans la zone forestière du Cameroun</a>
                       </td>
                       <td>
-                        2013-10-11
+                        24-07-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="detail.html" class="text-success">Market Access-guide to phytosanitary issues for national plant protection organizations</a> <small><img alt="The IPPC logo" src="img/ippc-resource.gif"> IPPC</small>
+                        <a href="/node/1462">TBD: Global Training of Trainers for Capacity Development</a>
                       </td>
                       <td>
-                        2013-10-11
+                        18-03-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/importing-australia-includes-quarantine-information-import-plants-and-plant-products">Importing to Australia: Includes quarantine information on the import of plants and plant products to Australia</a>
+                        <a href="/node/1461">TBD: Global World Seed Project Model</a>
                       </td>
-
                       <td>
-                        2013-09-13
+                        18-03-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/clearing-nursery-stock-and-flower-bulbs-cbpas-customs-and-border-protection-agricultural">Clearing Nursery Stock and Flower Bulbs for CBPAS (Customs and Border Protection Agricultural Specialists)</a>
+                        <a href="/node/1460">GCP /GLO/311/EC :IPPC Facilitating Developing Countries Delegates` attendance at meetings</a>
                       </td>
-
                       <td>
-                        2013-09-13
+                        18-03-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/international-trade-and-invasive-alien-species">International Trade and Invasive Alien Species</a>
+                        <a href="/node/533">STDF/PG/037:Assistance to developing countries in the implementation of International Standard for Phytosanitary Measure (ISPM) 15</a>
                       </td>
-
                       <td>
-                        2013-07-10
+                        18-03-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/information/mitigating-threat-cactoblastis-cactorum-international-agriculture-and-ecological-systems">Mitigating the Threat of Cactoblastis cactorum to International Agriculture and Ecological Systems and Biodiversity</a>
+                        <a href="/node/1459">STDF/PG/401: Training of Phytosanitary Capacity Evaluation (PCE) Facilitators</a>
                       </td>
-
                       <td>
-                        2013-04-25
+                        18-03-2013
                       </td>
-
+                      <td></td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/node/1571">CPM-8(2013) side session: Global Alliance to Control Escalating Threat of Banana Bunchy Top Disease in Africa</a>
+                        <a href="/node/1458">TBD: Application of Phytosanitary Capacity Evaluation(PCE) tool in Tajikistan</a>
                       </td>
-
                       <td>
-                        2013-04-11
+                        18-03-2013
                       </td>
-
+                      <td></td>
                     </tr>
+                    <tr>
+                      <td>
+                        <a href="/node/1457">TCP/ARM/3401: Preparation of a National Phytosanitary Capacity Development Strategy</a>
+                      </td>
+                      <td>
+                        18-03-2013
+                      </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="/node/1456">TBD: Azerbaijan Legal Review</a>
+                      </td>
+                      <td>
+                        18-03-2013
+                      </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="/node/1455">TBD: Azerbaijan</a>
+                      </td>
+                      <td>
+                        18-03-2013
+                      </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="/node/1454">TBD: Development of a comprehensive IPPC National Capacity Development Strategy</a>
+                      </td>
+                      <td>
+                        18-03-2013
+                      </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="/node/1453">STDF/PG/376: Support to NEPPO</a>
+                      </td>
+                      <td>
+                        18-03-2013
+                      </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="/node/1452">TBD: Activité de collobartion entre le Buraue sou-régional FAO, SNE, la CIPV et la NEPPO</a>
+                      </td>
+                      <td>
+                        18-03-2013
+                      </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="/node/1451">TBD: Application of Phytosanitary Capacity Evaluation(PCE) tool in Palestine</a>
+                      </td>
+                      <td>
+                        18-03-2013
+                      </td>
+                      <td></td>
+                    </tr>
+
                   </tbody>
                 </table>
               </div> <!-- /.panel -->
@@ -335,92 +419,7 @@
 
             </div><!-- /.col-md-12 -->
           </div><!-- /.row -->
-        </div><!-- /.col-md-8 -->
-
-<!-- =SIDEBAR =================== -->
-
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">About Phytosanitary Resources</h3>
-            </div> <!-- /.panel-heading -->
-            <div class="panel-body">
-              <p>
-                At Phytosanitary.info you can find and <a href="#">contribute</a> phytosanitary technical resources from and to the world's plant protection community. <a href="about.html" class="text-success">More »</a>
-              </p>
-            </div><!-- /.panel-body -->
-          </div><!-- /.panel -->
-
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Browse Resources</h3>
-            </div> <!-- /.panel-heading -->
-            <div class="panel-body">
-              <form role="form">
-                <select class="form-control" style="margin-bottom:10px;">
-                  <option>-- Type --</option>
-                  <option>Here</option>
-                  <option>They</option>
-                  <option>Go</option>
-                </select>
-                <select class="form-control" style="margin-bottom:10px;">
-                  <option>-- Area of Interest --</option>
-                  <option>Here</option>
-                  <option>They</option>
-                  <option>Go</option>
-                </select>
-                <select class="form-control" style="margin-bottom:10px;">
-                  <option>-- Language --</option>
-                  <option>Here</option>
-                  <option>They</option>
-                  <option>Go</option>
-                </select>
-                <button type="button" class="btn btn-primary">Browse</button>
-              </form>
-            </div><!-- /.panel-body -->
-          </div><!-- /.panel -->
-
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Latest Resources</h3>
-            </div> <!-- /.panel-heading -->
-            <div class="panel-body">
-              <ul class="list-unstyled">
-                <li><small>15 January 2014</small> <a href="#">Importing to Australia: Includes quarantine information</a> »</li>
-                <li><small>10 January 2014</small> <a href="#">Lorem ipsums something other</a> »</li>
-                <li><small>08 January 2014</small> <a href="#">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</a> »</li>
-                <li><small>05 January 2014</small> <a href="#">Et dolore magna aliqua ut enim ad minim veniam</a> »</li>
-                <li><small>01 January 2014</small> <a href="#">Occaecat cupidatat non proident deserunt mollit anim id est laborum</a> »</li>
-              </ul>
-            </div> <!-- /.panel-body -->
-          </div> <!-- /.panel -->
-
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Links to Related Organizations</h3>
-            </div>
-            <div class="panel-body">
-              <ul class="list-lesspadding">
-                <li><a href="https://www.ippc.int" title="The www.ippc.int website.">International Plant Protection Convention</a></li>
-                <li><a href="https://www.ippc.int/partners/regional-plant-protection-organizations">Regional Plant Protection Organizations</a></li>
-                <li><a href="http://www.standardsfacility.org/en/index.htm">Standards and Trade Development Facility</a></li>
-              </ul>
-            </div><!-- /.panel-body -->
-          </div><!-- /.panel -->
-
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Subscribe</h3>
-            </div> <!-- /.panel-heading -->
-            <div class="panel-body">
-              <ul class="list-unstyled">
-                <li><a href="#">RSS Feed</a></li>
-              </ul>
-            </div> <!-- /.panel-body -->
-          </div> <!-- /.panel -->
-
-        </div> <!-- /.col-md-8 -->
-      </div> <!-- /.row -->
+        </div><!-- /.col-md-12 -->
 
       <footer>
         <hr>
