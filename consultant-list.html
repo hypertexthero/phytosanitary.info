@@ -10,7 +10,7 @@
 
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> <!-- =Note: Don't forget to switch robots to "all" for production! -->
 
-    <title>Events - Phytosanitary Resources</title>
+    <title>Roster of Consultants - Phytosanitary Resources</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -80,7 +80,7 @@
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li class="dropdown active">
+                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Databases &amp; Tools <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="project-list.html">Projects</a></li>
@@ -114,7 +114,7 @@
                     <li><a href="#">Success Stories</a></li>
                   </ul>
                 </li>
-                <li><a href="consultant-list.html">Consultants</a></li>
+                <li class="active"><a href="consultant-list.html">Consultants</a></li>
               </ul>
             </div> <!-- ./navbar-collapse -->
           </div> <!-- /.container -->
@@ -129,151 +129,174 @@
           
           <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
-            <li class="active">Databases &amp; Tools: Events</li>
+            <li class="active">Roster of Consultants</li>
           </ol>
           
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7">
+              <img class="thumbnail" src="img/girl-gathering-flowers-Pierre-Auguste-Renoir-1872-360x200.jpg" alt="">
+              <h1 class="notopmargin">Roster of Consultants</h1>
+              <p class="lead">Find experts in topics related to plant protection and phytosanitary measures.</p>
 
-              <h1><span class="normal">Phytosanitary Capacity Development</span> Events Database</h1>
-              <p class="lead">View phytosanitary projects and interventions from a variety of recognized project information sources. Search the database to find out more details about phytosanitary capacity development activities world wide.</p>
+              <p>This database of service providers on phytosanitary issues has details of individuals and entities with thematic experience and competencies relevant to developing phytosanitary capacity including scientific, managerial and legal expertise.</p>
 
-              <p>Contact Points for IPPC contracting parties are encouraged to review the data for their countries and update the database regularly. <a href="login.html">Login</a> here with your IPP Portal account to share phytosanitary capacity development activities in your region/country.</p>
+              <p>Experts in topics related to plant protection, phytosanitary measures and capacity development are invited to <a href="register.html">complete the application form and upload CVs</a> so your profile (if approved) can be listed in the roster.</p>
               
-              <div class="col-md-6">
-                <a href="#" class="thumbnail">
-                  <img data-src="holder.js/default/250x133" alt="...">
-                  <!-- <img src="img/a-windmill-near-zaandam-Claude-Monet-360x200.jpg" alt=""> -->
-                </a>
-                <h4 class="inline">Featured Event</h4>
-                <p class="inline">Brief description of the event goes here. <a href="#">Read more »</a></p>
-              </div><!-- /.col-md-6 -->
+            </div> <!-- /.col-md-7 -->
+            <div class="col-md-5">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Find Consultants by…</h3>
+                </div> <!-- /.panel-heading -->
+                <div class="panel-body">
+                  <form role="form">
+                    <div class="form-group">
+                      <select class="form-control" style="margin-bottom:10px;">
+                        <option>-- Field of Expertise --</option>
+                        <option>Here</option>
+                        <option>They</option>
+                        <option>Go</option>
+                      </select>
+                    </div> <!-- ./form-group -->
+                
+                    <div class="form-group">
+                      <select class="form-control" style="margin-bottom:10px;">
+                        <option>-- Skills --</option>
+                        <option>Here</option>
+                        <option>They</option>
+                        <option>Go</option>
+                      </select>
+                    </div> <!-- ./form-group -->
 
-              <div class="col-md-6"> <!-- =todo -->
-                <a href="event-detail.html" class="thumbnail">
-                  <img data-src="holder.js/vine/250x133" alt="...">
-                  <!-- <img src="img/the-grand-dock-at-le-havre-1872-claude-monet-360x200.jpg" alt=""> -->
-                </a>
-                <h4 class="inline">Featured Event</h4>
-                <p class="inline">Meetings National Reporting Obligations in Central Africa. <a href="event-detail.html" class="text-success">Read more »</a></p>
-              </div><!-- /.col-md-6 -->
-              
-            </div> <!-- /.col-md-6 -->
+                    <div class="form-group">
+                      <select class="form-control" style="margin-bottom:10px;">
+                        <option>-- IPPC Secretariat Experience --</option>
+                        <option>Here</option>
+                        <option>They</option>
+                        <option>Go</option>
+                      </select>
+                    </div> <!-- ./form-group -->
 
-            <div class="col-md-6">
-              <h3>Number of events: 3</h3>
-              <!-- <img data-src="holder.js/default/550x380/text:calendar goes here" alt="..."> -->
-              <div style="width:100%; height:500px; background:#E9E9E9; padding:3em;">calendar goes here</div>
-            </div> <!-- /.col-md-6 -->
-            
+                    <div class="form-group">
+                      <label for="countryExpertise">Country of Expertise</label>
+                      <input type="text" id="countryExpertise" class="form-control" placeholder="Country name">
+                    </div> <!-- ./form-group -->
+                
+                    <div class="form-group">
+                      <label for="name">Consultant Name</label>
+                      <input type="text" id="name" class="form-control" placeholder="Name">
+                    </div> <!-- ./form-group -->
+                
+                    <div class="form-group">
+                      <label for="language">Language</label>
+                      <input type="text" id="language" class="form-control" placeholder="Spoken or writtern language">
+                    </div> <!-- ./form-group -->
+                
+                    <button type="button" class="btn btn-primary">Find</button>
+                  </form>
+                </div> <!-- /.panel-body -->
+              </div> <!-- /.panel -->
+            </div> <!-- /.col-md-5 -->
           </div> <!-- /.row -->
-          <div class="row">
+          
 
-            
-            <div class="col-md-6">
-              
-              
-            </div> <!-- /.col-md-6 -->
-          </div> <!-- /.row -->
+          
           
           <div class="row">
             <div class="col-md-12">
 
               <div class="panel panel-default">
 
-                <div class="panel-heading">
-                  <h3 class="panel-title">Filter Events by:</h3>
-                </div> <!-- /.panel-heading -->
-                <div class="panel-body">
-                  <form role="form">
-                    <div class="form-group">
-                      <select class="form-control" style="margin-bottom:10px;">
-                        <option>-- Type --</option>
-                        <option>Here</option>
-                        <option>They</option>
-                        <option>Go</option>
-                      </select>
-                    </div> <!-- /.form-group -->
-                    <div class="form-group">
-                      <select class="form-control" style="margin-bottom:10px;">
-                        <option>-- Category --</option>
-                        <option>Here</option>
-                        <option>They</option>
-                        <option>Go</option>
-                      </select>
-                    </div> <!-- /.form-group -->
-                    <div class="form-group">
-                      <select class="form-control" style="margin-bottom:10px;">
-                        <option>-- Country --</option>
-                        <option>Here</option>
-                        <option>They</option>
-                        <option>Go</option>
-                      </select>
-                    </div> <!-- /.form-group -->
-                    <div class="form-group">
-                      <select class="form-control" style="margin-bottom:10px;">
-                        <option>-- Year --</option>
-                        <option>Here</option>
-                        <option>They</option>
-                        <option>Go</option>
-                      </select>
-                    </div> <!-- /.form-group -->
-                    <button type="button" class="btn btn-primary">Filter</button>
-                  </form>
-                </div><!-- /.panel-body -->
                 <!-- =Table -->
                 <table class="table table-condensed table-striped table-hover">
+                  
                   <thead>
                     <tr>
                       <th>
-                        <a href="#" title="sort by Title" class="active">Title</a>
+                        <a href="#" title="Sort by Country" class="active" >Country <span class="caret"></span></a>
                       </th>
-                      <th style="width:30%;">
-                        <a href="#" title="Sort by publication date." class="active">Date <small class="text-muted normal small">(YYYY-MM-DD)</small><span class="caret"></span>
-                        </a>
+                      <th>
+                        <a href="#" title="Sort by name.">Name</a>
                       </th>
-
+                      <th>
+                        Expertise
+                      </th>
+                      <th>
+                        Curriculum Vitæ
+                      </th>
+                      <th>
+                        Contact
+                      </th>
                     </tr>
                   </thead>
+                  
                   <tbody>
                     <tr>
                       <td>
-                        <a href="event-detail.html" class="text-success">Meetings National Reporting Obligations in Central Africa</a>
+                        Australia
                       </td>
                       <td>
-                        2013-06-25 <small>Tuesday</small> <i>to</i> 2013-06-28 <small>Friday</small>
+                        <a href="#" title="See more details about this consultant.">Edwards Gavin</a>
                       </td>
-                      <td></td>
+                      <td>
+                        <ul class="list-lesspadding">
+                          <li>NPPO Development</li>
+                          <li>Phytosanitary Legislation and Regulation</li>
+                          <li>Phytosanitary Research and Development</li>
+                          <li>Pest Risk Analysis</li>
+                          <li>International Phytosanitary Framework</li>
+                          <li>Export/Import Certification</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <a href="#" title="Download this consultant's CV.">Download CV</a>
+                      </td>
+                      <td>
+                        <a href="#" title="Send an email to this consultant.">Send message</a>
+                      </td>
                     </tr>
+                    
                     <tr>
                       <td>
-                        <a href="#">IPPC: 2nd Meeting of the Capacity Development Committee(CDC)</a>
+                        Cameroon 
                       </td>
                       <td>
-                        2013-05-27 <small>Monday</small> <i>to</i> 2013-05-30 <small>Thursday</small>
-                      </td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a href="#">3rd Meeting of the Expert Working Group on Capacity Development</a>
+                        <a href="consultant-detail.html" class="text-success" title="See more details about this consultant.">Ndikontar Alice Ntoboh Siben</a>
                       </td>
                       <td>
-                        2012-05-21 <small>Tuesday</small> <i>to</i> 2012-05-25 <small>Saturday</small>
+                        <ul class="list-lesspadding">
+                          <li>NPPO Development</li>
+                          <li>Phytosanitary Legislation and Regulation</li>
+                          <li>Phytosanitary Research and Development</li>
+                          <li>Pest Risk Analysis</li>
+                          <li>International Phytosanitary Framework</li>
+                          <li>Export/Import Certification</li>
+                        </ul>
                       </td>
-                      <td></td>
+                      <td>
+                        <a href="#" title="Download this consultant's CV.">Download CV</a>
+                      </td>
+                      <td>
+                        <a href="#" title="Send an email to this consultant.">Send message</a>
+                      </td>
                     </tr>
                   </tbody>
+                  
                 </table>
               </div> <!-- /.panel -->
+              
+              <p class="small"><strong>Disclaimer:</strong> Individuals and entities are included in this roster of consultants to consolidate information of possible service providers for phytosanitary capacity development projects. These experts are self-nominated based on the relevance of their education, experience and skills to phytosanitary capacity development. Inclusion in this roster of experts does not indicate any endorsement or support by the Secretariat of the International Plant Protection Convention or its contracting parties.</p>
 
               <!-- =note: Page should list at least 50 items before showing pagination -->
               <p class="text-warning">=note: Page should list at least 50 items before showing pagination</p>
+              
               <ul class="pagination pagination-lg">
                 <li class="disabled"><a href="#">&laquo;</a></li>
                 <li class="active"><a href="#">1</a></li>
                 <li><a href="#">2</a></li>
                 <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
                 <li><a href="#">&raquo;</a></li>
               </ul>
 

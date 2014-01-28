@@ -323,6 +323,7 @@
               </div> <!-- /.panel -->
 
               <!-- =note: Page should list at least 50 items before showing pagination -->
+              <p class="text-warning">=note: Page should list at least 50 items before showing pagination</p>
               <ul class="pagination pagination-lg">
                 <li class="disabled"><a href="#">&laquo;</a></li>
                 <li class="active"><a href="#">1</a></li>
@@ -354,32 +355,38 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Browse Resources</h3>
-            </div> <!-- /.panel-heading -->
+            </div>
             <div class="panel-body">
               <form role="form">
-                <select class="form-control" style="margin-bottom:10px;">
-                  <option>-- Type --</option>
-                  <option>Here</option>
-                  <option>They</option>
-                  <option>Go</option>
-                </select>
-                <select class="form-control" style="margin-bottom:10px;">
-                  <option>-- Area of Interest --</option>
-                  <option>Here</option>
-                  <option>They</option>
-                  <option>Go</option>
-                </select>
-                <select class="form-control" style="margin-bottom:10px;">
-                  <option>-- Language --</option>
-                  <option>Here</option>
-                  <option>They</option>
-                  <option>Go</option>
-                </select>
+                <div class="form-group">
+                  <select class="form-control" style="margin-bottom:10px;">
+                    <option>-- Type --</option>
+                    <option>Here</option>
+                    <option>They</option>
+                    <option>Go</option>
+                  </select>
+                </div> <!-- ./form-group -->
+                <div class="form-group">
+                  <select class="form-control" style="margin-bottom:10px;">
+                    <option>-- Area of Interest --</option>
+                    <option>Here</option>
+                    <option>They</option>
+                    <option>Go</option>
+                  </select>
+                </div> <!-- ./form-group -->
+                <div class="form-group">
+                  <select class="form-control" style="margin-bottom:10px;">
+                    <option>-- Language --</option>
+                    <option>Here</option>
+                    <option>They</option>
+                    <option>Go</option>
+                  </select>
+                </div> <!-- ./form-group -->
                 <button type="button" class="btn btn-primary">Browse</button>
               </form>
             </div><!-- /.panel-body -->
           </div><!-- /.panel -->
-
+          
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Latest Resources</h3>
