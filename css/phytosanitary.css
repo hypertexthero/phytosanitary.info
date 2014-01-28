@@ -33,6 +33,7 @@ a:active {}*/
   border-color:#606;
 }
 
+.dl-horizontal dt {overflow:visible; white-space: normal;}
 
 .list-unstyled small {display:block; margin-top:1em;}
 .list-lesspadding {padding-left:1em;}
