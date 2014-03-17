@@ -63,8 +63,14 @@ form#searchform .form-control {/*width:91% !important;*/ width:20em;}
 -------------------------------------------------- */
 
 h1.logo a {
-  font-size:16px; margin:-26px 6em 0 0 !important; padding:5px 0 0 40px !important;
-  background:url(../img/logo.png) no-repeat 0 0; height:34px; color:#000; display:block;}
+  font-size:16px;
+  margin:-26px 6em 0 0 !important;
+  padding:5px 0 0 40px !important;
+  background:url(../img/logo.png) no-repeat 0 0;
+  height:34px;
+  color:#000;
+  display:block;
+  }
 
 ul.languages {margin-right:1em;}
 ul.languages .dropdown-menu {z-index:2000;}
